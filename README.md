@@ -16,4 +16,5 @@ Este repositório contém o código-fonte do meu primeiro desafio da escola DNC,
 
 ## Visualize neste ebdereço da netilify
 
-https://rid217892-desafio01.netlify.app/
+Link para visualizar o site publicado: https://rid217892-desafio01.netlify.app/
+Link para visualizar a planilha com os registros: https://docs.google.com/spreadsheets/d/1HhrWMWlRNGr0nFBEpqCqPFqWrSsX7eK7tSZ0tC3DxnA/edit?usp=sharing
