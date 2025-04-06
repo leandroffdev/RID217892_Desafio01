@@ -27,7 +27,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 229px;
+    gap: 20px;
+    min-height: 229px;
     list-style: none;
 }
 #statistics h1 {
@@ -50,7 +51,7 @@
 }
 #about h1 {
     font-size: 40px;
-    line-height: 20px;
+    line-height: 40px;
 }
 #about p {
     font-size: 24px;
@@ -73,11 +74,11 @@
 #footer h1 {
     height: 32px;
     font-weight: 700;
-    line-height: 150%;
 }
 #footer form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .input {
     width: 508px;
@@ -103,4 +104,46 @@ button {
 button:hover {
     transform: translateY(-7px);
     transition: 0.5s;
+}
+@media (max-width: 1200px) {
+    #statistics h1 {
+        font-size: 32px;
+        line-height: 24px;
+    }
+    #statistics span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #about {
+        grid-template-columns: 1fr;
+        padding: 54px;
+    }
+    #about img {
+        margin: auto;
+    }
+}
+@media (max-width: 700px) {
+    #statistics {
+        margin: auto;
+    }
+    #statistics ul {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    #about img {
+        width: 100%;
+    }
+    .input {
+        width: 100%;
+        height: 48px;
+        border-radius: 10px;
+        padding-left: 15px;
+        margin-top: 32px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    button {
+        width: 264px;
+        margin-top: 44px;
+    }
 }
